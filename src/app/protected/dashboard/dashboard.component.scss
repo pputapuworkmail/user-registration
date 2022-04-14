@@ -1,0 +1,45 @@
+.root-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.bolding {
+    font-weight: bold;
+}
+mat-card {
+    max-width: 500px;
+    margin: 10px;
+    padding: 20px 100px 20px 100px;
+    background-color: lemonchiffon;
+    mat-card-title {
+        text-align: center;
+    }
+    mat-card-title,
+    mat-card-content {
+    //   display: flex;
+      justify-content: center;
+    .spacing {
+        margin: 5px;
+    }
+      form {
+        .mat-form-field {
+          width: 100%;
+          min-width: 300px;
+        }
+  
+        .error {
+          padding: 16px;
+          width: 300px;
+          color: white;
+          background-color: red;
+        }
+  
+        .button {
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+    }
+  }

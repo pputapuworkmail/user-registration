@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+a {
+  margin: 10px;
+}
+.green-snackbar {
+  background: #03910a;
+}
+mat-card {
+  max-width: 500px;
+  margin: 10px;
+  background-color: lemonchiffon;
+  mat-card-title,
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+
+    form {
+      .mat-form-field {
+        width: 100%;
+        min-width: 300px;
+      }
+
+      .error {
+        padding: 16px;
+        width: 300px;
+        color: white;
+        background-color: red;
+      }
+
+      .button {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}

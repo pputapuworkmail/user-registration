@@ -1,0 +1,39 @@
+<!-- <p>Protected Dashboard works.</p> -->
+
+<!-- <a [routerLink]="['../../public/login']">Go back to Login</a>
+<br>
+<a [routerLink]="['../../public/register']">Go back to Register</a>
+<br> -->
+<div class="root-profile">
+<mat-card>
+    <mat-card-title>Profile</mat-card-title>
+    <mat-card-content>
+    <div class="spacing">
+        <span class="bolding">
+            Email:
+        </span>
+        <span>
+            {{userData.email}}
+        </span>
+    </div>
+    <div class="spacing">
+        <span class="bolding">
+            Name:
+        </span>
+        <span>
+            {{userData.firstname}} {{userData.lastname}}
+        </span>
+    </div>
+    <div class="spacing">
+        <span class="bolding">
+            Bio Data:
+        </span>
+        <span>
+            {{userData.bio}}
+        </span>
+    </div>
+    </mat-card-content>
+</mat-card>
+<br>
+<button mat-raised-button (click)="logout()">Logout</button>
+</div>
