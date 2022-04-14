@@ -1,0 +1,19 @@
+
+endpoints:
+
+- path: /conditional
+  method: get
+  behavior: conditional
+  responses: - statusCode: 200
+  condition:
+  operator: eq
+  comparand: headers.authorization
+  value: valid
+  body:
+  message: valid header - statusCode: 401
+  condition:
+  operator: eq
+  comparand: headers.authorization
+  value: invalid
+  body:
+  message: invalid header
